@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view"
+        android:layout_height="175dp"
+        android:layout_width="175dp"
+        android:background="@color/colorAccent"
+
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view2"
+        android:layout_height="175dp"
+        android:layout_width="175dp"
+
+        android:layout_marginLeft="175dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view3"
+        android:layout_height="175dp"
+        android:layout_width="50dp"
+
+        android:layout_marginLeft="345dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view4"
+        android:layout_height="175dp"
+        android:layout_width="175dp"
+
+        android:layout_marginTop="175dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view5"
+        android:layout_height="175dp"
+        android:layout_width="225dp"
+
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="175dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view6"
+        android:layout_height="200dp"
+        android:layout_width="325dp"
+
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="350dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view7"
+        android:layout_height="200dp"
+        android:layout_width="75dp"
+
+        android:layout_marginTop="350dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_our_view8"
+        android:layout_height="150dp"
+        android:layout_width="400dp"
+
+        android:layout_marginTop="550dp"
+        />
+
+</RelativeLayout>
